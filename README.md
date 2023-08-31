@@ -14,25 +14,3 @@ Page Structure:
 <Contact Section>
 <Footer Section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Project/Skill Links:
-https://www.youtube.com/watch?v=YNj1F7CPQ0c
-https://www.youtube.com/watch?v=8FqGNEbcCBc
