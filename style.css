@@ -1,0 +1,92 @@
+
+.gradient-background {
+  background: linear-gradient(300deg, #F8F0E5,#ead8c8, #d0882a);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+    color:darkslategrey;
+}
+
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    text-transform: uppercase;
+    color:lightslategray;
+    
+}
+.fs-3{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color:darkslategrey;
+    letter-spacing: 5px;
+}
+
+/*img{
+    border-radius: 10%;
+    border-color:whitesmoke;
+    border-style:solid;
+    border-width:1px;
+}*/
+
+h2{
+  font-family:'Times New Roman', Times, serif;
+  padding-top:20px;
+  padding-bottom: 20px;;
+  font-weight:normal;
+}
+
+h3{
+  font-family:'Times New Roman', Times, serif;
+  color:#0d0f23;
+  padding-top:20px;
+  padding-bottom: 20px;;
+  font-weight:normal;
+}
+
+.lead{
+  letter-spacing:7px;
+}
+
+.contact-me{
+  text-align:center;
+  /*background-color:#F8F0E5;*/
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a:hover {
+  color:white; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+/*#hero { 
+  background: url("./images/vithika_transparent.png") no-repeat center right fixed; 
+  background-position: fixed;
+  background-color:transparent;
+  background: size 70%;
+  
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
